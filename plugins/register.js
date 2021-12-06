@@ -8,20 +8,21 @@ let handler = async function (m, { text, usedPrefix }) {
   if (!name) throw 'Nama tidak boleh kosong (Alphanumeric)'
   if (!age) throw 'Umur tidak boleh kosong (Angka)'
   age = parseInt(age)
-  if (age > 25) throw 'Umur terlalu tua 😂'
-  if (age < 5) throw 'Bayi bisa ngetik sesuai format ajg🗿'
+  if (age > 25) throw 'Umur terlalu tua HAHAHA'
+  if (age < 5) throw 'Bayi bisa ngetik sesuai format ajg 🗿'
   user.name = name.trim()
   user.age = age
   user.regTime = + new Date
   user.registered = true
   let sn = createHash('md5').update(m.sender).digest('hex')
   m.reply(`
-◪ *「 DAFTAR BERHASIL 」*
+◪ *「 DATA DAFTAR BERHASIL DI SIMPAN 🚀 」*
 ╰───────────────────╮
 ╭───────────────────╯
-├❏ Nama : ${name}
-├❏ Umur : ${age}Thn
-├❏ SN: ${sn}
+├❏ Nama : ${name} 👍
+├❏ Umur : ${age}Thn 🎊
+├❏ SN: ${sn} 🔑
+├❏ NB: Jika Error Daftar Ulang
 ╰───────────────────╯
 `.trim())
 }
