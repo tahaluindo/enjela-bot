@@ -35,8 +35,8 @@ global.APIKeys = { // APIKey nya disini
 }
 
 // Sticker WM
-global.packname = 'ENJELA-BOT'
-global.author = 'Aguz Familia'
+global.packname = 'THCA-BOT'
+global.author = 'AKU GANTENG BANG'
 
 global.wait = '_*tunggu..*_'
 
