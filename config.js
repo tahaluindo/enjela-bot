@@ -23,13 +23,13 @@ global.APIs = { // API Prefix
 }
 global.APIKeys = { // APIKey nya disini
   // 'https://website': 'apikey'
-  'https://bx-hunter.herokuapp.com': 'Ikyy69',
+  'https://splapi.herokuapp.com': 'kris',
   'https://hardianto-chan.herokuapp.com': 'hardianto',
   'https://neoxr-api.herokuapp.com': 'yntkts',
   'https://pencarikode.xyz': 'pais',
-  'https://api.xteam.xyz': 'apikey',
+  'https://api.xteam.xyz': '170342e43e147afa',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
-  'https://api.zeks.xyz': 'zeks',
+  'https://api.zeks.xyz': 'officialdittaz',
   'https://lolhuman.herokuapp.com': 'lolhuman',
   'http://tobz-api.herokuapp.com': 'Tobz',
 }
