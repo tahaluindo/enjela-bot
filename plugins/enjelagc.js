@@ -1,9 +1,7 @@
 let handler = async m => m.reply(`
-*LINK GROUP ENJELA NIH KAK=*
-https://chat.whatsapp.com/Co0cj6KsxTa0tgtfrcVmqp
-
+*LINK GROUP NIH KAK=*
+https://chat.whatsapp.com/GgC9VKmPK7DJzDLPJ8tdy0
 NOTE : _JANGAN RUSUH KARNA GC_
-_ENJELA CUMAN BUAT MENGKODENG DOANG :'v_
 
 
 
