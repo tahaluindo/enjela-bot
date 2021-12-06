@@ -86,7 +86,7 @@ let aguz = JSON.parse(await fs.promises.readFile(path.join(__dirname, '../data/a
     let totalgc = Object.keys(global.db.data.users).length
     let rtotalreg = 0
     try {
-    rtotalreg = Object.values(global.db.data.users).filter(user => user.registered == true).length
+    rtotalreg = Object.values(global.db.data.users).filter(user => user.registered == false).length
     } catch {
     }
 
